@@ -1,4 +1,5 @@
 *Disclaimer: these key terms are for Mac OS users. Other operating systems may use slightly different terms.*
+> This folder will be updated regularly whenever relevant terms are introduced. 
 
 # Terminal Terms 
 ```
