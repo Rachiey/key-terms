@@ -19,3 +19,20 @@ code . -> opens file in visual studio code (if doesn't work, use cmd+shift+p in 
 ```
 # Git Key Terms 
 > Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows
+```
+command + j -> opens terminal in visual studio code
+```
+
+These initial commands will help set up your first repository on [Github](https://github.com/)
+
+```
+git init -> creates a repository 
+git add [insert file name here] -> adds your files to the staging area
+git commit -m "text here" -> adds a message to your commit i.e. labels your changes
+git remote add origin [github repo link] -> this adds the repo you will be pushing to
+
+
+git branch -m main -> renames branch you are currently on to 'main'
+git branch -m <oldname> <newname> -> renames selected branch to a new name 
+git push origin -u <newname> -> pushes your local branch and resets upstream branch
+```
